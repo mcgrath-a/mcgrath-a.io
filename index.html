@@ -7,11 +7,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
   <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-235378218-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-235378218-1');
+</script>
   <!-- End Google Tag Manager -->
 
   <!-- Materialize - Compiled and minified CSS-->
@@ -22,15 +26,7 @@
   <link rel="stylesheet" href="./assets/css/style.css" />
   <title>Alyanna McGrath| CS Student</title>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-126939217-2');
-  </script>
+  
 
   <!-- Open Graph-->
   <meta property="og:locale" content="en_US" />
@@ -127,13 +123,17 @@
           class="mdi-action-grade small"></i><span>Awards</span></a>
       </li> 
 
-        <!-- EDUCATION -->
+      <!-- EDUCATION -->
       <li class="bold">
         <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
             class="mdi-social-school small"></i><span>Education</span></a>
       </li>
 
-      
+       <!-- BLOG -->
+       <li class="bold">
+        <a aria-label="Navigate to the Blog section" href="#blog" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-create small"></i><span>Blog</span></a>
+      </li>
 
          <!-- CONTACT -->
       <li class="bold">
@@ -141,9 +141,10 @@
             class="mdi-content-mail small"></i><span>Contact</span></a>
       </li>
 
+
          <!-- RESUME -->
       <li class="bold">
-        <a aria-label="Open Alyanna's resume in a new tab" href="https://Alyannabhogayata.github.io/assets/resume/Alyanna_Bhogayata_Resume.pdf" target="_blank"
+        <a aria-label="Open Alyanna's resume in a new tab" href="./assets/resume/alyanna_resume.pdf" target="_blank"
         class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
       </li>
     </ul>
@@ -162,15 +163,21 @@
   <!-- Nav class 3 -->
   <nav class="hide-on-large only">
     <ul id="slide-out" class="side-nav">
+
+         <!-- ABOUT -->
       <li class="bold">
         <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
             class="mdi-social-person small"></i><span>About</span></a>
       </li>
+
+         <!-- EXPERIENCE -->
       <li class="bold">
         <a aria-label="Navigate to the Experience section" href="#experience"
           class="waves-effect waves-dark teal-text"><i
             class="mdi-action-trending-up small"></i><span>Experience</span></a>
       </li>
+
+         <!-- PROJECTS -->
       <li class="bold">
         <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
             class="mdi-av-my-library-books small"></i><span>Projects</span></a>
@@ -180,27 +187,44 @@
             class="mdi-action-assessment small"></i><span>Skills</span></a>
       </li> -->
 
-      <li class="bold">
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Education section" href="#courses" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-web small"></i><span>Courses</span></a>
-      </li>
+         <!-- COURSES -->
+         <li class="bold">
+          <a aria-label="Navigate to the Education section" href="#courses" class="waves-effect waves-dark teal-text"><i
+              class="mdi-av-web small"></i><span>Courses</span></a>
+        </li>
 
+      <!-- AWARDS -->
       <li class="bold">
         <a aria-label="Navigate to the Education section" href="#awards" class="waves-effect waves-dark teal-text"><i
             class="mdi-action-grade small"></i><span>Awards</span></a>
       </li>
 
+      
+
+ <!-- EDUCATION -->
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      
+
+      
+<!-- BLOG -->
+      <li class="bold">
+        <a aria-label="Navigate to the Blog section" href="#blog" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-create small"></i><span>Blog</span></a>
+      </li>
+
+  <!-- CONTACT -->
       <li class="bold">
         <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
             class="mdi-content-mail small"></i><span>Contact</span></a>
       </li>
+
+  <!-- RESUME -->
       <li class="bold">
         <a aria-label="Open Alyanna's Resume in a new tab"
-          href="https://drive.google.com/file/d/1B6MZ1z0-7NsefC3Lm_q-uhib28MTqpE9/view?usp=sharing" target="_blank"
+          href="./assets/resume/alyanna_resume.pdf" target="_blank"
           class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
       </li>
     </ul>
@@ -244,7 +268,7 @@
       </div>
     </section>
 
-    <!-- Second Section: About -->
+    <!-- ABOUT-->
     <section id="about" class="section scrollspy">
       <h3 class="page-title white-text teal">About</h3>
       <div class="container flow-text">
@@ -295,7 +319,7 @@
     </section>
 
 
-    <!-- Third Section: Experience -->
+    <!-- EXPERIENCE-->
     <section id="experience" class="section scrollspy">
       <h3 class="page-title white-text teal">Experience</h3>
       <div class="container">
@@ -455,18 +479,13 @@
      
     </section>
 
-    <!-- Fourth Section: Projects -->
+    <!-- PROJECTS -->
     <section id="projects" class="section scrollspy">
       <h3 class="page-title white-text teal">Projects</h3>
       <div class="container">
         <div class="row">
 
-          
-
-          
-
-
-          <!-- Flask Project -->
+       
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
@@ -690,7 +709,7 @@
       </div>
     </section>
  -->
- <!--  Section: Courses -->
+ <!-- COURSES -->
  <section id="courses" class="section scrollspy">
   <h3 class="page-title white-text teal">Courses</h3>
   <div class="container">
@@ -825,6 +844,9 @@ ii) spatial and memory consideration and analysis</li>
   </div>
 </section>
 
+
+
+  <!-- AWARDS -->
 <section id="awards" class="section scrollspy">
   <h3 class="page-title white-text teal">Awards</h3>
   <div class="container">
@@ -894,7 +916,8 @@ ii) spatial and memory consideration and analysis</li>
 
 
 
-    <!-- Seventh Section: Education -->
+
+    <!-- EDUCATION -->
     <section id="education" class="section scrollspy">
       <h3 class="page-title white-text teal">Education</h3>
       <div class="container">
@@ -904,7 +927,7 @@ ii) spatial and memory consideration and analysis</li>
             <div class="card">
               <div class="card-content">
                 <p>
-                  <span class="card-title"><a href="https://www.oxy.edu/"" target="_blank" class="teal-text hoverline">Occidental College</a></span>
+                  <span class="card-title"><a href="https://www.oxy.edu/" target="_blank" class="teal-text hoverline">Occidental College</a></span>
                 </p>
                 <p class="brown-text">Los Angeles, CA</p>
                 <p>
@@ -927,7 +950,68 @@ ii) spatial and memory consideration and analysis</li>
       </div>
     </section>
 
-    <!-- Eight Section: Contact -->
+
+    <!-- BLOG -->
+    <section id="blog" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Blog (under construction)</h3>
+      <div class="container">
+        <!-- <h4 id="posts-2020">2022</h4> -->
+       <!--  <ol aria-labelledby="posts-2022">
+          <li>
+            <a class="hoverline" href="./blog/moving-my-blog-to-eleventy-part-3/">Moving my blog to Eleventy, Part 3: Creating Layouts</a>
+            <dl>
+              <dd>Published:
+              </dd><dt>
+                <time datetime="2020-06-25T00:00:00+00:00">
+                  June 25, 2020
+                </time>
+              </dt>
+            </dl>
+          </li>
+          <li>
+            <a class="hoverline" href="./blog/moving-my-blog-to-eleventy-part-2.md/">Moving my blog to Eleventy, Part 2: Getting Started</a>
+            <dl>
+              <dd>Published:
+              </dd><dt>
+                <time datetime="2020-05-13T00:00:00+00:00">
+                  May 13, 2020
+                </time>
+              </dt>
+            </dl>
+          </li>
+          <li>
+            <a class="hoverline" href="./blog/moving-my-blog-to-eleventy-part-1/">Moving my blog to Eleventy, Part 1: Installing Node with NVM</a>
+            <dl>
+              <dd>Published:
+              </dd><dt>
+                <time datetime="2020-05-06T00:00:00+00:00">
+                  May 6, 2020
+                </time>
+              </dt>
+            </dl>
+          </li>
+        </ol> -->
+  
+        <h4 id="posts-2019">2022</h4>
+        <ol aria-labelledby="posts-2019">
+          <li>
+            <a class="hoverline" href="./blog/hello-world-and-why-im-blogging/index.html">Hello, world. And why I'm blogging.</a>
+            <dl>
+            
+              <dd>Published:
+              </dd><dt>
+                <time datetime="2019-09-02T00:00:00+00:00">
+                  Month, Day, Year
+                </time>
+              </dt>
+            </dl>
+          </li>
+        </ol>
+      </div>
+    </section>
+  
+
+    <!-- CONTACT -->
     <section id="contact" class="section scrollspy full-height">
       <h3 class="page-title white-text teal">Contact</h3>
       <div class="container">
@@ -959,6 +1043,7 @@ ii) spatial and memory consideration and analysis</li>
       </div>
     </section>
   </main>
+      
 
   <!-- typed.js -->
   <script src="assets/vendor/typed.js/typed.min.js"></script>
