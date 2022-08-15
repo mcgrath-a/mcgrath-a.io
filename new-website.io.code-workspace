@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "new-website.io",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "new-website.io"
+	}
+}
