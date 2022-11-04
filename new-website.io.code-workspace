@@ -6,6 +6,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "new-website.io"
+		"liveServer.settings.multiRootWorkspaceName": "new-website.io",
+		"liveServer.settings.port": 5501
 	}
 }

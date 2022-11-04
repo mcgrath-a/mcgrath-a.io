@@ -182,11 +182,11 @@
     }
   }
   h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.3;
   }
   h3 {
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: 1.3;
   }
   hr {
@@ -252,6 +252,13 @@
     color: #eb5757;
     font-size: 0.9em;
   }
+  figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  
+}
 </style>
 <a class="back-to-index" href="/#blog">
   <i class="mdi-hardware-keyboard-arrow-left"></i>
@@ -260,22 +267,39 @@
 <!-- Main Content-->
 <main>
   <article>
-    <h1>Moving my blog to Eleventy, Part 1: Installing Node with NVM</h1>
-<h2>tl:dr;</h2>
-<p>Apparently writing <a href="/blog/hello-world-and-why-im-blogging">my first blog post</a> wasn't enough to kick my butt into high blogging gear. Two posts per year isn't quite the clip I was hoping for! So my new plan is to make it so easy to write, publish, and manage content that I have no excuse but to do it more often. Follow along as I try to get <a href="https://www.11ty.dev/#quick-start">step 1 of the Eleventy docs</a> working, but instead spend an entire night installing <a href="https://nodejs.org/en/">Node</a>.</p>
-<p>View all posts in this Eleventy series:</p>
-<ul>
-<li><a href="/blog/moving-my-blog-to-eleventy-part-1/">Part 1: Installing Node with NVM</a></li>
-<li><a href="/blog/moving-my-blog-to-eleventy-part-2/">Part 2: Getting Started</a></li>
-<li><a href="/blog/moving-my-blog-to-eleventy-part-3/">Part 3: Creating Layouts</a></li>
-</ul>
+    <h1>My First Blog Post: Aly's Growing Up</h1>
+<h2>A teen no longer</h2>
+
+<p>
+  If you are reading this, that means I've decided to put pen to paper and write my thoughts; I am glad you're here. Please be warned this 
+  blog is not anything formal; in fact, please treat it as a conversation between you and me. In the following few paragraphs, you'll find some 
+  updates on my life, things many of you know or might not have known, a progress report on how things are going, and some really exciting news. 
+  I titled this blog post 'Aly's Growing Up' to commemorate my last few weeks/days (depending on when you're reading this), being 19, come November 25, 2022, 
+  I won't be a teen ever again. Not to be dramatic or anything, but damn, where did the time go? Anyway, I hope you enjoy reading and catching up with me.
+</p>
+<p><img src="baby_me.png" alt="browsersync interface"><p>caption</p>
+  </p>
+
+
+
 <hr>
-<h2>Preface: Bring on the hot mess</h2>
-<p>Truth be told, I am genuinely apprehensive about updating the tech stack of my portfolio site. I've been burned before. <a href="https://github.com/andrewborstein/portfolio/commit/58cdef4c1388d9b7a7f64339db750dca5a60f928#diff-595bf3fa2348192244b0319be33066b8">An earlier version of this site</a> was built in 2015 using <a href="http://jade-lang.com/">Jade</a> for templating and <a href="https://gruntjs.com/">Grunt</a> for compiling the assets. At some point the compilation totally broke and I didn't feel like investing the time to figure out why. The same thing happened with <a href="http://savedbythetext.herokuapp.com/">a small Rails app that I built</a> around the same time. I left it alone and one day POOF it stopped working. It was easier to rebuild the entire thing from scratch than to update all the dependencies and libraries. But even now, completely rebuilt, it's a ticking time bomb. I'm just biding my time until it fails again.</p>
-<p>If you're new to web development, let me disabuse you of any misconceptions to the contrary: this is par for the course. The entire web is in a constant state of decay, some parts degrading more quickly than others. If you build something and then simply wait... eventually, it will break. It's just a matter of time! The few things that don't break should be considered exceptions to the rule and can be counted on two hands (kudos, <a href="https://www.spacejam.com/">Space Jam</a>).</p>
-<p>But don't misunderstand me! This is not all bad. In fact, it's part of what makes web development so exciting. There are a limitless number of problems to be solved, bugs to be squashed, new toys to try out. To create something that lasts, though, you need to carefully consider the tools and materials you use to build it. I imagine the same is true for any other form of engineering or art. That's why <a href="https://github.com/andrewborstein/portfolio/commit/34dd7c75f4b20954a8b0adb76b099cc95c69efbe">I removed all the JS dependencies</a> in a fit of frustration and defiance 6 months ago. I wanted to get as close to 100% native browser technologies as possible. Just the basics: HTML, CSS, Javascript. Ideally that would include removing all my 3rd party dependencies, and I'm not there yet. Add that to the never ending to-do list of ways to improve the site.</p>
-<p>And now, with my tail between my legs, I'm crawling back to the Javascript ecosystem to help me out of a bind. Some tasks are just too thorny (or annoying) for plain ol' HTML, and blogging is one of them. So here I am once again, crossing my fingers and hoping the latest <code>npm install</code> <em>hotness</em> won't reduce my website to a <em>hot</em> <em>mess</em> as soon as I close my laptop for a minute. But I'm choosing to take a different outlook this time around. I want to get my hands dirty. I want stuff to break. I want to experiment with new technologies. Maybe having a project that <em>needs</em> constant maintenance will actually be good for me, assuming I'm willing to commit time to it. So I say bring it on.</p>
-<h2>Installing Eleventy</h2>
+<h2>College Life</h2>
+ <p>
+  As you all know, I am attending Occidental College in Los Angeles, California. I am currently a sophomore 
+  in my 3rd semester (about to start the 4th in a few months). Ever since I committed to this school, I think I've been asked the same question/plus 
+  or minus a couple words: "Oh wow, that's so far from home," or "Wow, you're gonna be far away" "Are you excited to be on the other side of the country?", 
+  "Do you think you'll like it ?". The list goes on and on, and I get it people are curious; that's typical human nature, but being that I am a sophomore now, I can answer this question with more experience. I love it here; the distance is not an issue, especially when I call my mom at least 3 times a day (sometimes more). Yay, some days are harder than others, especially when it comes to 6 am practice and then 3 classes in a row, but that's college life. I signed up for this, 
+  and in about two years and change, I'll have a degree to show for it.
+ </p>
+ <p>
+  Here at Oxy, which we call Occidental for short, all first-year students come in as undecided and not pressured to choose a path right away, meaning we only declare a major later in our sophomore year. Well, as you know, I'm unique and already knew what path I wanted to take before I was required to choose one. I officially declared as a computer science major last year in the spring semester of my first year.
+ </p>
+ <p>
+  Before you compliment me on my intelligence to pick such a complex major, trust me, I know, and all I can say is that while I do love it, I love problem-solving and learning new technologies and programming languages; I must say this is not for the weak. As I start taking upper-division courses, I know it will only get more demanding, but I am prepared and well-equipped to handle those challenges. If there's one thing about me, you know I love challenging myself. I mean, heck, I was on the Dean's List twice for the fall and spring semesters with a 4.0 GPA, and I am on track to do that again this year. The only person stopping me is me.
+ </p>
+ <p><img src="oxy_quad.jpg" alt="browsersync interface"><p>caption</p>
+</p>
+<h2>Basketball</h2>
 <p>OK! I'm excited to get started. The <a href="https://www.11ty.dev/#quick-start">Eleventy quick start guide</a> suggests that installation is a 3-line process. Sounds great to me! So I clone <a href="https://github.com/andrewborstein/portfolio">my portfolio repo</a> locally, open the directory in my text editor and attempt step 1, which looks like installing the Eleventy node module globally:</p>
 <pre><code class="language-bash">$ npm install -g @11ty/eleventy
 </code></pre>
