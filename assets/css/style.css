@@ -693,4 +693,15 @@ small {
   #intro.section {
     background-position-x: 30%;
   }
+
+  /* this is not working need to debugg manually overwrit in HTML */
+  footer {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 50px; /* adjust as needed */
+    background-color: #333; /* adjust as needed */
+    color: #fff; /* adjust as needed */
+  }
+
 }
